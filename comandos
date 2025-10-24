@@ -37,3 +37,23 @@ git commit -m "llenar datos y conexiones"
 
 
 pip install pyserial
+
+python -m venv venv
+source venv/Scripts/activate
+pip list
+
+pip install -r requirements.txt
+pip freeze > requirements.txt
+python -m pip install --upgrade pip
+pip install pyserial
+pip install serial
+pip install psycopg2
+
+
+
+
+
+
+
+
+
